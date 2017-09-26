@@ -11,14 +11,43 @@
 </head>
 <body>
     <!-- xs - <576px,  sm - >= 576px,  md >= 768px,  lg >= 992px -->
-    <div class="row">
-        <div class="col-xs-10 col-sm-3 bgorange"></div>
-        <div class="col-xs-2 hidden-sm-up bgyellow"></div>
-        <div class="col-sm-3 visible-sm-up bgblue"></div>
-        <div class="col-sm-3 visible-sm-up bgblue"></div>
-        <div class="col-sm-3 visible-sm-up bgblue"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 visible-md visible-lg">
+                <div class="row">
+                    <div class="col-md-12 bgolive"></div>
+                    <div class="col-md-12 bgolive"></div>
+                    <div class="col-md-12 bgolive"></div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="row">
+                    <div class="col-xs-10 col-sm-3 bgorange"></div>
+                    <div class="col-xs-2 visible-xs bgyellow"></div>
+                    <div class="col-sm-3 hidden-xs bgblue"></div>
+                    <div class="col-sm-3 hidden-xs bgblue"></div>
+                    <div class="col-sm-3 hidden-xs bgblue"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 col-md-offset-0 bggrey"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 bggreen"></div>
+                    <div class="col-xs-12 col-sm-6 bgbrown"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 bgred"></div>
+                </div>
+                <div class="row visible-sm">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row visible-xs visible-sm">
+                    <div class="col-xs-4 bgpurple"></div>
+                    <div class="col-xs-4 bgpurple"></div>
+                    <div class="col-xs-4 bgpurple"></div>
+                </div>  
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-8-offset-2 bggrey"></div>
-    </div>
+    
 </body>
