@@ -1,0 +1,13 @@
+.row > div
+{
+    border: 1px solid black;
+    height: 50px;
+}
+.bggreen { background-color: green; }
+.bgpurple { background-color: purple; }
+.bgorange { background-color: orange; }
+.bgyellow { background-color: yellow; }
+.bggrey { background-color: grey; }
+.bgblue { background-color: blue; }
+.bgred { background-color: red; }
+.bgbrown { background-color: brown; }
